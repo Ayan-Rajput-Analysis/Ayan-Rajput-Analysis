@@ -214,4 +214,18 @@ I am open to **full-time software engineering roles**, **AI/ML engineer contract
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24&height=100&section=footer&text=Engineered%20with%20Precision%20%E2%80%A2%20Ayan%20Rajput&fontSize=16&fontColor=ffffff" width="100%"/>
-</p>
+</p      <tr>
+        <td>
+          <strong>⚡ <a href="https://github.com/Ayan-Rajput-Analysis/applied-ai-deep-learning-colab-lab">Applied AI & Deep Learning Lab</a></strong><br/>
+          <em>17 Production Google Colab Notebooks with 1-Click GPU Execution</em><br/>
+          Curated laboratory suite covering Retrieval-Augmented Generation (RAG), LangChain autonomous agents, Transformer multi-head attention, CNNs, RNNs, and predictive regression modeling.
+        </td>
+        <td>
+          <code>Google Colab</code> • <code>PyTorch</code> • <code>LangChain</code> • <code>Transformers</code> • <code>TensorFlow</code> • <code>ChromaDB</code> • <code>Jupyter</code>
+        </td>
+        <td>
+          <a href="https://github.com/Ayan-Rajput-Analysis/applied-ai-deep-learning-colab-lab"><strong>View Code ➔</strong></a><br/>
+          <img src="https://img.shields.io/badge/Colab-17%20Notebooks-orange?style=flat-square"/>
+        </td>
+      </tr>
+>
