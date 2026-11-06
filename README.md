@@ -22,7 +22,7 @@ I am a results-oriented **AI Engineer, Computer Vision Specialist, and Full-Stac
 My track record includes:
 - **Computer Vision & CNNs:** Built multi-stage temporal convolutional networks (**MS-TCN++**) for fine-grained action segmentation on continuous video feeds and achieved **99.2% top-1 model accuracy** via Squeeze-and-Excitation (SE) residual optimization.
 - **Interactive 3D WebGL:** Engineered bespoke WebGL2/Three.js interactive web experiences featuring 14,000+ GPU compute streamline particles, custom GLSL vertex/fragment shaders, and procedural audio synthesis.
-- **Enterprise Data & Predictive ML:** Formulated end-to-end predictive classification pipelines (XGBoost / LightGBM) reducing missed SLA delivery penalties by **41%**, combined with executive Microsoft Power BI dashboards backed by Star Schema DAX models.
+- **Enterprise Data & Predictive ML:** Formulated end-to-end predictive classification pipelines (XGBoost / LightGBM) reducing missed SLA delivery penalties by **41%**, combined with clinical diagnostic ML and executive Microsoft Power BI dashboards backed by Star Schema DAX models.
 
 ---
 
@@ -95,8 +95,8 @@ My track record includes:
 <table>
   <thead>
     <tr>
-      <th width="40%">Project & System</th>
-      <th width="40%">Architecture & Tech Stack</th>
+      <th width="38%">Project & System</th>
+      <th width="42%">Architecture & Tech Stack</th>
       <th width="20%">Deliverables</th>
     </tr>
   </thead>
@@ -118,11 +118,11 @@ My track record includes:
     <tr>
       <td>
         <strong>🧠 <a href="https://github.com/Ayan-Rajput-Analysis/computer-vision-deep-learning-cnn">Deep Learning & CV Suite</a></strong><br/>
-        <em>Temporal CNN Video Segmentation & 99.2% Model Optimization</em><br/>
-        Multi-Stage Temporal Convolutional Network (MS-TCN++) for action boundary detection, paired with SE-ResNet mixed-precision training crossing 99.2% accuracy.
+        <em>Temporal CNN Video Segmentation & 5 Enterprise ML/DL Systems</em><br/>
+        Multi-Stage Temporal Convolutional Network (MS-TCN++), 99.2% SE-ResNet optimization, Supply Chain risk engine, Clinical Cardiology diagnostics, and Automotive valuation regression.
       </td>
       <td>
-        <code>PyTorch</code> • <code>TorchVision</code> • <code>OpenCV</code> • <code>MS-TCN++</code> • <code>SE-ResNet</code> • <code>AMP</code> • <code>XGBoost</code>
+        <code>PyTorch</code> • <code>TorchVision</code> • <code>OpenCV</code> • <code>MS-TCN++</code> • <code>SE-ResNet</code> • <code>XGBoost</code> • <code>Scikit-Learn</code>
       </td>
       <td>
         <a href="https://github.com/Ayan-Rajput-Analysis/computer-vision-deep-learning-cnn"><strong>View Code ➔</strong></a><br/>
@@ -193,12 +193,12 @@ My track record includes:
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ayan-Rajput-Analysis&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=94A3B8" alt="Ayan's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayan-Rajput-Analysis&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=94A3B8" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ayan-Rajput-Analysis&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=94A3B8" alt="Ayan's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ayan-Rajput-Analysis&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=94A3B8" alt="Top Languages" width="48%" />
 </div>
 
 <div align="center" style="margin-top: 15px;">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ayan-Rajput-Analysis&theme=tokyonight&hide_border=true&background=0D1117&stroke=38BDF8&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="GitHub Streak" width="96%" />
+  <img src="https://streak-stats.demolab.com/?user=Ayan-Rajput-Analysis&theme=tokyonight&hide_border=true&background=0D1117&stroke=38BDF8&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="GitHub Streak" width="96%" />
 </div>
 
 ---
