@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Ayan Rajput — AI &amp; Deep Learning Engineer, 3D WebGL Specialist, Full-Stack &amp; BI Architect</title>
+  <desc id="heroDesc">Executive portfolio banner showcasing computer vision pipelines, GPU-accelerated 3D web engineering, and enterprise business intelligence systems.</desc>
+
+  <defs>
+    <style>
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+      @keyframes statusPulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.42; }
+      }
+      @keyframes ringBreath {
+        0%, 100% { opacity: 0.28; }
+        50% { opacity: 0.08; }
+      }
+      @keyframes telemetryFlow {
+        0% { stroke-dashoffset: 36; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes ambientGlow {
+        0%, 100% { opacity: 0.92; }
+        50% { opacity: 0.68; }
+      }
+      .pulse-dot { animation: statusPulse 2.6s ease-in-out infinite; }
+      .pulse-ring { animation: ringBreath 2.6s ease-in-out infinite; }
+      .trend-flow { stroke-dasharray: 6 3; animation: telemetryFlow 6s linear infinite; }
+      .glow-breathe { animation: ambientGlow 5s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+
+    <clipPath id="heroClip">
+      <rect x="0.5" y="0.5" width="1199" height="389" rx="14"/>
+    </clipPath>
+
+    <clipPath id="rowAClip">
+      <rect x="806" y="90" width="324" height="46" rx="6"/>
+    </clipPath>
+    <clipPath id="rowBClip">
+      <rect x="806" y="144" width="324" height="46" rx="6"/>
+    </clipPath>
+    <clipPath id="rowCClip">
+      <rect x="806" y="198" width="324" height="46" rx="6"/>
+    </clipPath>
+
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="52%" stop-color="#0F1A30"/>
+      <stop offset="100%" stop-color="#1E1612"/>
+    </linearGradient>
+
+    <linearGradient id="topAccentBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C89B6E"/>
+      <stop offset="32%" stop-color="#B07D4F"/>
+      <stop offset="68%" stop-color="#5B8CC0"/>
+      <stop offset="100%" stop-color="#0B132B" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="bronzeGlowTR" cx="82%" cy="16%" r="42%">
+      <stop offset="0%" stop-color="#C89B6E" stop-opacity="0.17"/>
+      <stop offset="55%" stop-color="#8C5A32" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#0B132B" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="sapphireGlowBL" cx="14%" cy="92%" r="44%">
+      <stop offset="0%" stop-color="#5B8CC0" stop-opacity="0.15"/>
+      <stop offset="60%" stop-color="#1E2F4D" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0B132B" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="ruleFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8C5A32" stop-opacity="0.85"/>
+      <stop offset="45%" stop-color="#1E2F4D" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1E2F4D" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="trendStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6E96C4"/>
+      <stop offset="52%" stop-color="#C89B6E"/>
+      <stop offset="100%" stop-color="#57B894"/>
+    </linearGradient>
+
+    <pattern id="archGrid40" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E2F4D" stroke-width="0.75" stroke-opacity="0.46"/>
+      <circle cx="0" cy="0" r="1" fill="#6E96C4" fill-opacity="0.22"/>
+    </pattern>
+
+    <radialGradient id="gridMaskGrad" cx="55%" cy="48%" r="62%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.88"/>
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.06"/>
+    </radialGradient>
+
+    <mask id="gridMask">
+      <rect x="0" y="0" width="1200" height="390" fill="url(#gridMaskGrad)"/>
+    </mask>
+  </defs>
+
+  <!-- Clipped Canvas Layer -->
+  <g clip-path="url(#heroClip)">
+    <rect x="0" y="0" width="1200" height="390" fill="url(#heroBg)"/>
+    <rect x="0" y="0" width="1200" height="390" fill="url(#archGrid40)" mask="url(#gridMask)"/>
+    <rect x="0" y="0" width="1200" height="390" fill="url(#bronzeGlowTR)" class="glow-breathe"/>
+    <rect x="0" y="0" width="1200" height="390" fill="url(#sapphireGlowBL)"/>
+
+    <!-- Subtle Decorative Architectural Corner Guides -->
+    <path d="M 32 26 L 32 16 L 42 16" fill="none" stroke="#1E2F4D" stroke-width="1" opacity="0.7"/>
+    <path d="M 32 364 L 32 374 L 42 374" fill="none" stroke="#1E2F4D" stroke-width="1" opacity="0.7"/>
+
+    <!-- Top 2px Accent Bar -->
+    <rect x="0.5" y="0.5" width="1199" height="2.5" fill="url(#topAccentBar)"/>
+  </g>
+
+  <!-- Razor-Sharp Outer Frame Border (GitHub Light and Dark Theme Safe) -->
+  <rect x="0.5" y="0.5" width="1199" height="389" rx="14" fill="none" stroke="#1E2F4D" stroke-width="1"/>
+  <rect x="1.5" y="1.5" width="1197" height="387" rx="13" fill="none" stroke="#C89B6E" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- ==================== LEFT COLUMN (x="60") ==================== -->
+
+  <!-- Status Eyebrow Pill -->
+  <g>
+    <rect x="60" y="44" width="496" height="30" rx="15" fill="#131E32" stroke="#1E2F4D" stroke-width="1"/>
+    <circle cx="79" cy="59" r="6.5" fill="#3D8B6E" class="pulse-ring"/>
+    <circle cx="79" cy="59" r="3.6" fill="#3D8B6E" class="pulse-dot"/>
+    <text x="93" y="62.8" class="mono" font-size="10.2" font-weight="600" letter-spacing="0.4" fill="#C89B6E">AVAILABLE FOR SELECT ROLES &amp; CONSULTING  <tspan fill="#6E96C4">•  AI • 3D WEB • BI</tspan></text>
+  </g>
+
+  <!-- Display Headline -->
+  <text x="60" y="132" class="sans" font-size="50" font-weight="800" letter-spacing="-0.6" fill="#F1F5F9">AYAN RAJPUT</text>
+
+  <!-- Domain Subtitle -->
+  <text x="60" y="168" class="sans" font-size="18.5" font-weight="600" letter-spacing="-0.35" fill="#C89B6E">AI &amp; Deep Learning Engineer <tspan fill="#8C5A32">•</tspan> 3D WebGL Specialist <tspan fill="#8C5A32">•</tspan> Full-Stack &amp; BI Architect</text>
+
+  <!-- Precision Accent Hairline -->
+  <rect x="60" y="187" width="380" height="1" fill="url(#ruleFade)"/>
+
+  <!-- 2-Line Executive Value Proposition -->
+  <text x="60" y="216" class="sans" font-size="15" font-weight="400" fill="#CBD5E1">Engineering high-accuracy computer vision pipelines, GPU-accelerated 3D web experiences,</text>
+  <text x="60" y="241" class="sans" font-size="15" font-weight="400" fill="#CBD5E1">and revenue-driving commercial software &amp; executive analytics systems.</text>
+
+  <!-- 3 Capability Pills (y="302", height="36", rx="7") -->
+  <!-- Pill 1 -->
+  <g>
+    <rect x="60" y="302" width="228" height="36" rx="7" fill="#261B14" stroke="#4A3525" stroke-width="1"/>
+    <rect x="69" y="309" width="26" height="22" rx="4" fill="#1E1612" stroke="#4A3525" stroke-width="0.8"/>
+    <text x="82" y="324" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#C89B6E">01</text>
+    <text x="105" y="324.5" class="sans" font-size="13" font-weight="600" fill="#F1F5F9">AI &amp; Computer Vision</text>
+  </g>
+
+  <!-- Pill 2 -->
+  <g>
+    <rect x="300" y="302" width="236" height="36" rx="7" fill="#131E32" stroke="#1E2F4D" stroke-width="1"/>
+    <rect x="309" y="309" width="26" height="22" rx="4" fill="#0D1526" stroke="#1E2F4D" stroke-width="0.8"/>
+    <text x="322" y="324" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#6E96C4">02</text>
+    <text x="345" y="324.5" class="sans" font-size="13" font-weight="600" fill="#F1F5F9">3D WebGL &amp; Full-Stack</text>
+  </g>
+
+  <!-- Pill 3 -->
+  <g>
+    <rect x="548" y="302" width="208" height="36" rx="7" fill="#261B14" stroke="#4A3525" stroke-width="1"/>
+    <rect x="557" y="309" width="26" height="22" rx="4" fill="#1E1612" stroke="#4A3525" stroke-width="0.8"/>
+    <text x="570" y="324" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#C89B6E">03</text>
+    <text x="593" y="324.5" class="sans" font-size="13" font-weight="600" fill="#F1F5F9">Executive BI &amp; ML</text>
+  </g>
+
+  <!-- ==================== RIGHT COLUMN: TELEMETRY CARD ==================== -->
+  <g>
+    <!-- Card Shell -->
+    <rect x="790" y="44" width="356" height="302" rx="12" fill="#0D1526" stroke="#1E2F4D" stroke-width="1"/>
+    <line x1="790" y1="80" x2="1146" y2="80" stroke="#1E2F4D" stroke-width="1"/>
+
+    <!-- Window Control Dots -->
+    <circle cx="810" cy="62" r="4.2" fill="#8C5A32"/>
+    <circle cx="824" cy="62" r="4.2" fill="#C89B6E"/>
+    <circle cx="838" cy="62" r="4.2" fill="#3D8B6E"/>
+
+    <!-- Card Eyebrow Header -->
+    <text x="854" y="65.5" class="mono" font-size="9.8" font-weight="600" letter-spacing="0.45" fill="#94A3B8">SYSTEM TELEMETRY <tspan fill="#C89B6E">// PORTFOLIO v2026</tspan></text>
+
+    <!-- Row A: Deep Learning and CV -->
+    <g clip-path="url(#rowAClip)">
+      <rect x="806" y="90" width="324" height="46" rx="6" fill="#131E32"/>
+      <rect x="806" y="90" width="3.5" height="46" fill="#C89B6E"/>
+    </g>
+    <rect x="806" y="90" width="324" height="46" rx="6" fill="none" stroke="#1E2F4D" stroke-width="0.8"/>
+    <text x="820" y="107.5" class="mono" font-size="9.5" font-weight="700" letter-spacing="0.6" fill="#C89B6E">DEEP LEARNING &amp; CV</text>
+    <text x="1120" y="107.5" text-anchor="end" class="mono" font-size="9" font-weight="600" fill="#94A3B8">PYTORCH</text>
+    <text x="820" y="125.5" class="sans" font-size="12" font-weight="500" fill="#F1F5F9">MS-TCN++ Video • 99.2% SE-ResNet</text>
+
+    <!-- Row B: 3D WebGL2 and Shaders -->
+    <g clip-path="url(#rowBClip)">
+      <rect x="806" y="144" width="324" height="46" rx="6" fill="#131E32"/>
+      <rect x="806" y="144" width="3.5" height="46" fill="#5B8CC0"/>
+    </g>
+    <rect x="806" y="144" width="324" height="46" rx="6" fill="none" stroke="#1E2F4D" stroke-width="0.8"/>
+    <text x="820" y="161.5" class="mono" font-size="9.5" font-weight="700" letter-spacing="0.6" fill="#6E96C4">3D WEBGL2 &amp; SHADERS</text>
+    <text x="1120" y="161.5" text-anchor="end" class="mono" font-size="9" font-weight="600" fill="#94A3B8">GLSL</text>
+    <text x="820" y="179.5" class="sans" font-size="12" font-weight="500" fill="#F1F5F9">14K+ GPU Particles • Next.js 15 • R3F</text>
+
+    <!-- Row C: Client and Enterprise BI -->
+    <g clip-path="url(#rowCClip)">
+      <rect x="806" y="198" width="324" height="46" rx="6" fill="#261B14"/>
+      <rect x="806" y="198" width="3.5" height="46" fill="#3D8B6E"/>
+    </g>
+    <rect x="806" y="198" width="324" height="46" rx="6" fill="none" stroke="#4A3525" stroke-width="0.8"/>
+    <text x="820" y="215.5" class="mono" font-size="9.5" font-weight="700" letter-spacing="0.6" fill="#57B894">CLIENT &amp; ENTERPRISE BI</text>
+    <text x="1120" y="215.5" text-anchor="end" class="mono" font-size="9" font-weight="600" fill="#C89B6E">PROD</text>
+    <text x="820" y="233.5" class="sans" font-size="12" font-weight="500" fill="#F1F5F9">Live SaaS/Web • Power BI DAX • XGBoost</text>
+
+    <!-- Mini Precision Telemetry Bar Chart + Trend Line -->
+    <rect x="806" y="254" width="324" height="54" rx="6" fill="#131E32" fill-opacity="0.72" stroke="#1E2F4D" stroke-width="0.8"/>
+    <text x="818" y="268.5" class="mono" font-size="8.5" font-weight="600" letter-spacing="0.5" fill="#94A3B8">BENCHMARK TELEMETRY</text>
+    <text x="1118" y="268.5" text-anchor="end" class="mono" font-size="8.5" font-weight="700" fill="#57B894">99.2% PEAK</text>
+
+    <!-- Telemetry Bars (Baseline y="301") -->
+    <g>
+      <rect x="820" y="291" width="14" height="10" rx="1.5" fill="#1E2F4D"/>
+      <rect x="845" y="288" width="14" height="13" rx="1.5" fill="#1E2F4D"/>
+      <rect x="870" y="286" width="14" height="15" rx="1.5" fill="#5B8CC0" fill-opacity="0.55"/>
+      <rect x="895" y="284" width="14" height="17" rx="1.5" fill="#5B8CC0" fill-opacity="0.75"/>
+      <rect x="920" y="287" width="14" height="14" rx="1.5" fill="#8C5A32" fill-opacity="0.72"/>
+      <rect x="945" y="282" width="14" height="19" rx="1.5" fill="#8C5A32"/>
+      <rect x="970" y="280" width="14" height="21" rx="1.5" fill="#B07D4F"/>
+      <rect x="995" y="278" width="14" height="23" rx="1.5" fill="#C89B6E" fill-opacity="0.85"/>
+      <rect x="1020" y="279" width="14" height="22" rx="1.5" fill="#5B8CC0" fill-opacity="0.85"/>
+      <rect x="1045" y="276" width="14" height="25" rx="1.5" fill="#C89B6E"/>
+      <rect x="1070" y="275" width="14" height="26" rx="1.5" fill="#3D8B6E" fill-opacity="0.85"/>
+      <rect x="1095" y="273" width="14" height="28" rx="1.5" fill="#57B894"/>
+    </g>
+
+    <!-- Precision Trend Curve Overlay -->
+    <path d="M 827 290 L 852 287 L 877 285 L 902 282 L 927 284 L 952 280 L 977 278 L 1002 276 L 1027 277 L 1052 274 L 1077 273 L 1102 271" fill="none" stroke="url(#trendStroke)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="trend-flow"/>
+    <circle cx="1102" cy="271" r="2.6" fill="#57B894"/>
+
+    <!-- Status Footer -->
+    <circle cx="814" cy="328" r="3.3" fill="#3D8B6E" class="pulse-dot"/>
+    <text x="826" y="331.5" class="mono" font-size="9.8" font-weight="700" letter-spacing="0.55" fill="#57B894">11 REPOSITORIES  •  PRODUCTION VERIFIED</text>
+  </g>
+</svg>

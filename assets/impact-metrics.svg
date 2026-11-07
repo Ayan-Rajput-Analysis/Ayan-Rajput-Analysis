@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 176" width="1200" height="176" role="img" aria-labelledby="metricsTitle metricsDesc">
+  <title id="metricsTitle">Executive Engineering Impact Metrics — Computer Vision, 3D WebGL, Predictive BI, Shipped Ecosystem</title>
+  <desc id="metricsDesc">Four verified benchmark cards: 99.2% SE-ResNet Top-1 Accuracy, 14,000+ Real-Time GPU Particles, 41% Cut in Missed SLA Penalty Risk, and 11 Shipped Systems including 17 GPU Colab Notebooks.</desc>
+
+  <defs>
+    <style>
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+      @keyframes livePulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.38; }
+      }
+      @keyframes barBreath {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.76; }
+      }
+      .pulse-dot { animation: livePulse 2.6s ease-in-out infinite; }
+      .accent-bar { animation: barBreath 4.5s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+
+    <clipPath id="outerClip">
+      <rect x="0.5" y="0.5" width="1199" height="175" rx="12"/>
+    </clipPath>
+
+    <clipPath id="c1Clip">
+      <rect x="18" y="18" width="276" height="140" rx="9"/>
+    </clipPath>
+    <clipPath id="c2Clip">
+      <rect x="314" y="18" width="276" height="140" rx="9"/>
+    </clipPath>
+    <clipPath id="c3Clip">
+      <rect x="610" y="18" width="276" height="140" rx="9"/>
+    </clipPath>
+    <clipPath id="c4Clip">
+      <rect x="906" y="18" width="276" height="140" rx="9"/>
+    </clipPath>
+
+    <pattern id="metricsGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E2F4D" stroke-width="0.6" stroke-opacity="0.28"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer Frame Canvas -->
+  <g clip-path="url(#outerClip)">
+    <rect x="0.5" y="0.5" width="1199" height="175" rx="12" fill="#0B132B"/>
+    <rect x="0" y="0" width="1200" height="176" fill="url(#metricsGrid)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="175" rx="12" fill="none" stroke="#1E2F4D" stroke-width="1"/>
+
+  <!-- ==================== CARD 1: COMPUTER VISION ==================== -->
+  <g>
+    <g clip-path="url(#c1Clip)">
+      <rect x="18" y="18" width="276" height="140" rx="9" fill="#261B14"/>
+      <rect x="18" y="18" width="276" height="2.5" fill="#C89B6E" class="accent-bar"/>
+    </g>
+    <rect x="18" y="18" width="276" height="140" rx="9" fill="none" stroke="#4A3525" stroke-width="1"/>
+
+    <text x="38" y="44" class="mono" font-size="9.8" font-weight="700" letter-spacing="0.55" fill="#C89B6E">01 // COMPUTER VISION</text>
+    <circle cx="272" cy="40" r="2.8" fill="#C89B6E" fill-opacity="0.75"/>
+
+    <text x="38" y="88" class="sans" font-size="32" font-weight="800" letter-spacing="-0.6" fill="#F1F5F9">99.2%</text>
+    <text x="38" y="116" class="sans" font-size="13.2" font-weight="600" fill="#CBD5E1">SE-ResNet Top-1 Accuracy</text>
+    <text x="38" y="139" class="mono" font-size="10.4" font-weight="500" fill="#94A3B8">MS-TCN++ Video Segmentation</text>
+  </g>
+
+  <!-- ==================== CARD 2: 3D WEBGL ENGINEERING ==================== -->
+  <g>
+    <g clip-path="url(#c2Clip)">
+      <rect x="314" y="18" width="276" height="140" rx="9" fill="#131E32"/>
+      <rect x="314" y="18" width="276" height="2.5" fill="#5B8CC0" class="accent-bar"/>
+    </g>
+    <rect x="314" y="18" width="276" height="140" rx="9" fill="none" stroke="#1E2F4D" stroke-width="1"/>
+
+    <text x="334" y="44" class="mono" font-size="9.8" font-weight="700" letter-spacing="0.55" fill="#6E96C4">02 // 3D WEBGL ENGINEERING</text>
+    <circle cx="568" cy="40" r="2.8" fill="#5B8CC0" fill-opacity="0.85"/>
+
+    <text x="334" y="88" class="sans" font-size="32" font-weight="800" letter-spacing="-0.6" fill="#F1F5F9">14,000+</text>
+    <text x="334" y="116" class="sans" font-size="13.2" font-weight="600" fill="#CBD5E1">Real-Time GPU Particles</text>
+    <text x="334" y="139" class="mono" font-size="10.4" font-weight="500" fill="#94A3B8">GLSL Shaders • Three.js • R3F</text>
+  </g>
+
+  <!-- ==================== CARD 3: PREDICTIVE AND BI IMPACT ==================== -->
+  <g>
+    <g clip-path="url(#c3Clip)">
+      <rect x="610" y="18" width="276" height="140" rx="9" fill="#261B14"/>
+      <rect x="610" y="18" width="276" height="2.5" fill="#8C5A32" class="accent-bar"/>
+    </g>
+    <rect x="610" y="18" width="276" height="140" rx="9" fill="none" stroke="#4A3525" stroke-width="1"/>
+
+    <text x="630" y="44" class="mono" font-size="9.8" font-weight="700" letter-spacing="0.55" fill="#C89B6E">03 // PREDICTIVE &amp; BI IMPACT</text>
+    <circle cx="864" cy="40" r="2.8" fill="#B07D4F" fill-opacity="0.85"/>
+
+    <text x="630" y="88" class="sans" font-size="32" font-weight="800" letter-spacing="-0.6" fill="#F1F5F9">41% Cut</text>
+    <text x="630" y="116" class="sans" font-size="13.2" font-weight="600" fill="#CBD5E1">Missed SLA Penalty Risk</text>
+    <text x="630" y="139" class="mono" font-size="10.4" font-weight="500" fill="#94A3B8">XGBoost • Star Schema DAX</text>
+  </g>
+
+  <!-- ==================== CARD 4: SHIPPED ECOSYSTEM ==================== -->
+  <g>
+    <g clip-path="url(#c4Clip)">
+      <rect x="906" y="18" width="276" height="140" rx="9" fill="#131E32"/>
+      <rect x="906" y="18" width="276" height="2.5" fill="#3D8B6E" class="accent-bar"/>
+    </g>
+    <rect x="906" y="18" width="276" height="140" rx="9" fill="none" stroke="#1E2F4D" stroke-width="1"/>
+
+    <text x="926" y="44" class="mono" font-size="9.8" font-weight="700" letter-spacing="0.55" fill="#57B894">04 // SHIPPED ECOSYSTEM</text>
+    <circle cx="1160" cy="40" r="3.3" fill="#3D8B6E" class="pulse-dot"/>
+
+    <text x="926" y="88" class="sans" font-size="32" font-weight="800" letter-spacing="-0.6" fill="#F1F5F9">11 Systems</text>
+    <text x="926" y="116" class="sans" font-size="13.2" font-weight="600" fill="#CBD5E1">Client Web, AI Labs &amp; BI</text>
+    <text x="926" y="139" class="mono" font-size="10.4" font-weight="500" fill="#94A3B8">incl. 17 GPU Colab Notebooks</text>
+  </g>
+</svg>
