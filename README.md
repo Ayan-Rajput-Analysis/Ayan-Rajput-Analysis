@@ -40,16 +40,16 @@ I engineer **production AI & computer vision pipelines**, **GPU-accelerated 3D w
   <tr>
     <td colspan="2" valign="top">
       <p>
-        <img src="https://img.shields.io/badge/CLIENT_PRODUCTION_SPOTLIGHT-AUTOMOTIVE_SAAS_%26_BI-8C5A32?style=flat-square&labelColor=0B132B" alt="Client Spotlight" />
-        <img src="https://img.shields.io/badge/STATUS-PRODUCTION_READY-2D6E55?style=flat-square&labelColor=0D1526&logo=checkmarx&logoColor=57B894" alt="Production Ready" />
+        <a href="https://ayan-rajput-analysis.github.io/kenyon-auto-cosmetics/"><img src="https://img.shields.io/badge/LIVE_CLIENT_APP-LAUNCH_PLATFORM-8C5A32?style=flat-square&labelColor=0B132B&logo=googlechrome&logoColor=C89B6E" alt="Live Client App" /></a>
+        <img src="https://img.shields.io/badge/STATUS-PRODUCTION_LIVE-2D6E55?style=flat-square&labelColor=0D1526&logo=checkmarx&logoColor=57B894" alt="Production Live" />
       </p>
       <h4><a href="https://github.com/Ayan-Rajput-Analysis/kenyon-auto-cosmetics">Kenyon Auto Cosmetics — Dynamic Pricing, Concierge &amp; Executive Dispatch BI Platform</a></h4>
       <p>
-        Replaced a manual 180-word mobile detailing travel-fee policy for a Phoenix restyling studio (<code>4.7★ • 584+ reviews</code>) with a real-time <strong>23-ZIP Greater Phoenix distance calculator</strong> (<code>$59</code> base zone, <code>$3/mi</code> extended surcharge, <code>$40</code> autonomous water/power rig toggle, <code>+3%</code> card math, and 12-month financing), a <strong>state-coupled 24/7 Quote Concierge</strong> that live-mutates calculator state at <code>$0</code> LLM cost, and a <strong>PIN-gated Chart.js 4.4 Staff Portal</strong> unified with a <code>$0/mo</code> serverless Google Sheets + Gmail Apps Script bridge.
+        Replaced a manual 180-word mobile detailing travel-fee policy for a Phoenix restyling studio (<code>4.7★ • 584+ reviews</code>) with a real-time <strong>23-ZIP Greater Phoenix distance calculator</strong> (<code>$59</code> base zone, <code>$3/mi</code> extended surcharge, <code>$40</code> autonomous water/power rig toggle, <code>+3%</code> card math, and 12-month financing), a <strong>state-coupled 24/7 Quote Concierge</strong> that live-mutates calculator state at <code>$0</code> LLM cost, and a <strong>PIN-gated Chart.js 4.4 Staff Portal</strong> (<code>Demo PIN: 2026</code>) unified with a <code>$0/mo</code> serverless Google Sheets + Gmail Apps Script bridge.
       </p>
       <p>
-        <code>JavaScript ES6+</code> • <code>Tailwind CSS 3.4</code> • <code>Chart.js 4.4</code> • <code>Google Apps Script</code> • <code>Serverless Sheets DB</code> —
-        <a href="https://github.com/Ayan-Rajput-Analysis/kenyon-auto-cosmetics"><strong>Explore Architecture &amp; Case Study →</strong></a>
+        <code>JavaScript ES6+</code> • <code>Tailwind CSS 3.4</code> • <code>Chart.js 4.4</code> • <code>Google Apps Script</code> • <code>Serverless Sheets DB</code><br/>
+        <a href="https://ayan-rajput-analysis.github.io/kenyon-auto-cosmetics/"><strong>Launch Live Interactive App →</strong></a> &nbsp;|&nbsp; <a href="https://github.com/Ayan-Rajput-Analysis/kenyon-auto-cosmetics"><strong>Explore Architecture &amp; Case Study →</strong></a>
       </p>
     </td>
   </tr>
